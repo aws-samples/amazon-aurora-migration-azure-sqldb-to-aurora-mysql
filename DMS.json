@@ -99,7 +99,6 @@
 		"AzureReplicationInstance": {
 			"Type": "AWS::DMS::ReplicationInstance",
 			"Properties": {
-				"EngineVersion": "2.2.1",
 				"ReplicationInstanceClass": "dms.c4.4xlarge",
 				"ReplicationInstanceIdentifier": {
 					"Fn::Join": [
